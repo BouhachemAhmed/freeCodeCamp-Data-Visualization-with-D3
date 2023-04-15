@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Science Fair";
+  src: url("../resources/Science Fair.otf");
+}
+@font-face {
+  font-family: "Science Fair Light";
+  src: url("../resources/Science Fair Light.otf");
+}
+
+.alive {
+  background-color: red;
+}
+
+.game {
+  font-family: "Science Fair";
+  .headline {
+    input {
+      width: 70px;
+      height: 30px;
+      font-size: 16px;
+      font-family: "Science Fair";
+      background-color: white;
+      border: 1px solid black;
+      margin: 0 5px;
+    }
+  }
+  .settings {
+    width: 100%;
+    text-align: center;
+    br {
+      margin: -10px 0;
+    }
+    div {
+      margin: 0 15%;
+      display: inline-block;
+      input[type="radio"] {
+        border-radius: 0;
+      }
+    }
+
+    .size {
+      text-align: left;
+    }
+    .speed {
+      text-align: right;
+    }
+  }
+
+  br {
+    display: block;
+    margin: -1px 0;
+  }
+}
+
+.field {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 50%;
+  width: 100%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  .cell {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    margin: 0 2px;
+  }
+}
+
+.headline {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-family: "Science Fair";
+  font-size: 35px;
+  text-align: center;
+}

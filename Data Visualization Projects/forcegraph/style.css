@@ -1,0 +1,27 @@
+text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  text-anchor: middle;
+  font-family: 'Open Sans';
+  font-size: 40px;
+}
+
+body {
+  text-align: center;
+}
+
+img {
+  position: absolute;
+}
+
+.chart {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+line {
+  stroke: grey;
+  stroke-opacity: 0.8;
+}

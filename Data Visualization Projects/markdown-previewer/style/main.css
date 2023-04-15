@@ -1,0 +1,25 @@
+body {
+  overflow: hidden; }
+
+.title {
+  font-family: "Open Sans"; }
+
+.previewer {
+  font-family: "Helvetica";
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 500px; }
+  .previewer div {
+    margin: 0 2%;
+    height: inherit;
+    width: 45%;
+    display: inline-block; }
+  .previewer .input {
+    float: left; }
+    .previewer .input textarea {
+      resize: none;
+      width: 100%;
+      height: 100%; }
+  .previewer .output {
+    float: right; }

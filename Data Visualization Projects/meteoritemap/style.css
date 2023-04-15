@@ -1,0 +1,18 @@
+.d3-tip {
+  line-height: 1;
+  font-family: 'Open Sans';
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.chart {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart {
+  background: url('resources/world.svg') no-repeat;
+}
