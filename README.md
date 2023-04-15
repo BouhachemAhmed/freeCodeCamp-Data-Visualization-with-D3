@@ -1,5 +1,5 @@
 # freeCodeCamp-Data-Visualization
-My personal 🚩 goal was to complete my FreeCodeCamp Front End Development Libraries certification, and 🎉 here it is.
+My personal 🚩 goal was to complete my FreeCodeCamp Data-Visualization certification, and 🎉 here it is.
 
 ![image](https://user-images.githubusercontent.com/61451186/232176862-620711eb-245b-4c76-a7b5-dc2f3fa53741.png)
 
